@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <header className={styles.header}>
           <h1 className={styles.title}>MINIMAL</h1>
-          <p className={styles.subtitle}>Black & White Aesthetic</p>
+          <p className={styles.subtitle}>Black &amp; White Aesthetic</p>
         </header>
         
         <section className={styles.content}>
@@ -35,14 +35,14 @@ export default function Home() {
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>Timeless</h2>
             <p className={styles.cardText}>
-              This aesthetic never goes out of style. It's as relevant today 
+              This aesthetic never goes out of style. It&apos;s as relevant today 
               as it was decades ago, and will remain so.
             </p>
           </div>
         </section>
         
         <footer className={styles.footer}>
-          <p>© {new Date().getFullYear()} Minimal Design Co.</p>
+          <p>&copy; {new Date().getFullYear()} Minimal Design Co.</p>
         </footer>
       </main>
     </>
